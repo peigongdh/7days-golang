@@ -2,8 +2,9 @@ package session
 
 import (
 	"database/sql"
-	"geeorm/log"
 	"strings"
+
+	"geeorm/log"
 )
 
 // Session keep a pointer to sql.DB and provides all execution of all

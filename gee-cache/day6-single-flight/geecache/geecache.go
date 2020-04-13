@@ -2,9 +2,10 @@ package geecache
 
 import (
 	"fmt"
-	"geecache/singleflight"
 	"log"
 	"sync"
+
+	"geecache/singleflight"
 )
 
 // A Group is a cache namespace and associated data loaded spread over

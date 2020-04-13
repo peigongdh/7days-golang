@@ -2,13 +2,14 @@ package geecache
 
 import (
 	"fmt"
-	"geecache/consistenthash"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"net/url"
 	"strings"
 	"sync"
+
+	"geecache/consistenthash"
 )
 
 const (

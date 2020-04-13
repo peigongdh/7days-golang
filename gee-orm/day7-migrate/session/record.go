@@ -2,8 +2,9 @@ package session
 
 import (
 	"errors"
-	"geeorm/clause"
 	"reflect"
+
+	"geeorm/clause"
 )
 
 // Insert one or more records in database

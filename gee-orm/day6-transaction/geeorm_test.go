@@ -2,8 +2,9 @@ package geeorm
 
 import (
 	"errors"
-	"geeorm/session"
 	"testing"
+
+	"geeorm/session"
 
 	_ "github.com/mattn/go-sqlite3"
 )

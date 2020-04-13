@@ -1,9 +1,10 @@
 package schema
 
 import (
-	"geeorm/dialect"
 	"go/ast"
 	"reflect"
+
+	"geeorm/dialect"
 )
 
 // Field represents a column of database

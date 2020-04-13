@@ -1,8 +1,9 @@
 package session
 
 import (
-	"geeorm/log"
 	"testing"
+
+	"geeorm/log"
 )
 
 type Account struct {

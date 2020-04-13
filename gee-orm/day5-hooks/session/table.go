@@ -2,9 +2,10 @@ package session
 
 import (
 	"fmt"
-	"geeorm/log"
 	"reflect"
 	"strings"
+
+	"geeorm/log"
 
 	"geeorm/schema"
 )

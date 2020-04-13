@@ -3,10 +3,11 @@ package geeorm
 import (
 	"database/sql"
 	"fmt"
+	"strings"
+
 	"geeorm/dialect"
 	"geeorm/log"
 	"geeorm/session"
-	"strings"
 )
 
 // Engine is the main struct of geeorm, manages all db sessions and transactions.

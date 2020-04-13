@@ -1,8 +1,9 @@
 package session
 
 import (
-	"geeorm/log"
 	"reflect"
+
+	"geeorm/log"
 )
 
 // Hooks constants
