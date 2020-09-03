@@ -3,6 +3,7 @@ package dialect
 import (
 	"reflect"
 	"testing"
+	"time"
 )
 
 func TestDataTypeOf(t *testing.T) {
@@ -15,6 +16,7 @@ func TestDataTypeOf(t *testing.T) {
 		{123, "integer"},
 		{1.2, "real"},
 		{[]int{1, 2, 3}, "blob"},
+		{time.Now(), "datetime"},
 	}
 
 	for _, c := range cases {
